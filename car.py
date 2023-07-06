@@ -30,3 +30,8 @@ car = Car(2023, "Example Make")
 for _ in range(5):
     car.accelerate()
     print("Current speed:", car.get_speed())
+
+# Brake the car five times and display the current speed after each brake
+for _ in range(5):
+    car.brake()
+    print("Current speed:", car.get_speed())
