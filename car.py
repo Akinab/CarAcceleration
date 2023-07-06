@@ -25,4 +25,8 @@ class Car:
 
 # Create a Car object
 car = Car(2023, "Example Make")
-    
+
+# Accelerate the car five times and display the current speed after each acceleration
+for _ in range(5):
+    car.accelerate()
+    print("Current speed:", car.get_speed())
