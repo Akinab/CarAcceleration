@@ -5,3 +5,4 @@ def details ():
     
 details ()
 
+class Car:
